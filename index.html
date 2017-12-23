@@ -323,8 +323,90 @@
                               <h2 id="line3_5">UML diagrams <a href="#top" class="toplink">#back to top</a></h2>
                               The class diagram used for generating the backend:
                               <img src="https://raw.githubusercontent.com/fhv-msi/sentiment-analysis-uml/master/images/Class_Diagram.PNG" style="margin-top: 0px; width: 100%"/>
+                              <ul style="list-style: square; padding-left: 30px">
+                                <li>AnalysisEndpoint
+                                  <ul>
+                                    <li>Contains operations for analyzing a text and return the sentiment for it</li>
+                                  </ul>
+                                </li>
+                                <li>HistoryEndpoint
+                                  <ul>
+                                    <li>Contains operations for the analysis history for each user</li>
+                                  </ul>
+                                </li>
+                                <li>AuthEndpoint
+                                  <ul>
+                                    <li>Contains operations for user login and logout</li>
+                                  </ul>
+                                </li>
+                                <li>AnalysisHandler
+                                  <ul>
+                                    <li>Business logic for executing the sentiment analysis with a webservice call to indico.io</li>
+                                  </ul>
+                                </li>
+                                <li>HistoryHandler
+                                  <ul>
+                                    <li>Business lgoic for adding and loading analysis history</li>
+                                  </ul>
+                                </li>
+                                <li>AuthHandler
+                                  <ul>
+                                    <li>Business lgoic for handling user login and logout</li>
+                                  </ul>
+                                </li>
+                                <li>User
+                                  <ul>
+                                    <li>Represents a single user which uses the system</li>
+                                  </ul>
+                                </li>
+                                <li>History
+                                  <ul>
+                                    <li>Represents the history for a specific user</li>
+                                  </ul>
+                                </li>
+                                <li>HistoryItem
+                                  <ul>
+                                    <li>Single history item which contains a single analysis with the text and the result</li>
+                                  </ul>
+                                </li>
+                                <li>SentimentResult
+                                  <ul>
+                                    <li>Represents a single result of a sentiment analysis of a given text</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                              <br/>
                               The following stereotypes are used to specify the correct generator for the class:
                               <img src="https://raw.githubusercontent.com/fhv-msi/sentiment-analysis-uml/master/images/Profile_Diagram.PNG" style="margin-top: 0px; width: 100%"/>
+                              The stereotypes are used to use different generators for different classes in the UML diagram.<br/>
+                              Description of the stereotypes:<br/>
+                              <ul style="list-style: square; padding-left: 30px">
+                                <li>Endpoint (class)
+                                  <ul>
+                                    <li>This will generate a REST endpoint in Springboot</li>
+                                  </ul>
+                                </li>
+                                <li>Handler (class)
+                                  <ul>
+                                    <li>This will generate a simple class which holds the business logic of the application</li>
+                                  </ul>
+                                </li>
+                                <li>Model (class)
+                                  <ul>
+                                    <li>This will generate a JavaBean</li>
+                                  </ul>
+                                </li>
+                                <li>Read (operation)
+                                  <ul>
+                                    <li>This will generate a GET endpoint with the given path as URL</li>
+                                  </ul>
+                                </li>
+                                <li>Write (operation)
+                                  <ul>
+                                    <li>This will generate a POST endpoint with the given path as URL</li>
+                                  </ul>
+                                </li>
+                              </ul>
                             </div>
                         </div>
                         <!-- end row -->
