@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+sentiment-analysis-backend,at.fhv.sentiment_analysis.handlers,AnalysisHandler,115,11,13,1,25,5,8,2,1,2
+sentiment-analysis-backend,at.fhv.sentiment_analysis.handlers,AuthHandler,0,88,1,13,0,22,1,11,0,5
+sentiment-analysis-backend,at.fhv.sentiment_analysis.handlers,HistoryHandler,43,11,5,1,11,5,5,2,2,2
+sentiment-analysis-backend,at.fhv.sentiment_analysis.models,SentimentResult,23,0,0,0,9,0,5,0,5,0
+sentiment-analysis-backend,at.fhv.sentiment_analysis.models,HistoryItem,33,0,0,0,13,0,7,0,7,0
+sentiment-analysis-backend,at.fhv.sentiment_analysis.models,User,0,23,0,0,0,9,0,5,0,5
+sentiment-analysis-backend,at.fhv.sentiment_analysis.models,History,7,8,0,0,3,2,2,1,2,1
+sentiment-analysis-backend,at.fhv.sentiment_analysis,Application,13,0,0,0,4,0,3,0,3,0
+sentiment-analysis-backend,at.fhv.sentiment_analysis,Application.new WebMvcConfigurerAdapter() {...},44,0,0,0,4,0,2,0,2,0
+sentiment-analysis-backend,at.fhv.sentiment_analysis.endpoints,HistoryEndpoint,7,0,0,0,2,0,2,0,2,0
+sentiment-analysis-backend,at.fhv.sentiment_analysis.endpoints,AuthEndpoint,11,0,0,0,4,0,3,0,3,0
+sentiment-analysis-backend,at.fhv.sentiment_analysis.endpoints,AnalysisEndoint,8,0,0,0,2,0,2,0,2,0
