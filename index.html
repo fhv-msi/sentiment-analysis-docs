@@ -72,6 +72,10 @@
                         <ul class="nav">
                             <li><a href="#line1">Getting Started</a></li>
                             <li><a href="#line2">How to setup a project</a></li>
+                              <ul class="nav">
+                                <li><a href="#line2_1">Acceleo project</a></li>
+                                <li><a href="#line2_2">Papyrus UML project</a></li>
+                              </ul>
                             <li><a href="#line3">Sentiment Analysis</a></li>
                                 <ul class="nav">
                                     <li><a href="#line3_1">Project description</a></li>
@@ -159,7 +163,41 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text">How to setup a project <a href="#top">#back to top</a><hr></h2>
+                                <h2 class="dark-text">How to setup a project<a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 id="line2_1">Acceleo project <a href="#top" class="toplink">#back to top</a><hr></h2>
+
+                                1. Open Eclipse<br/>
+                                2. Create a new Acceleo project (File - New - Acceleo Project)<br/>
+                                3. Change the name of the project<br/>
+                                <img src="images/tutorial/new_acceleo_project.png" style="margin-top: 0px; width: 80%"/><br/>
+                                4. Add the UML 5.0.0 Metadata URI to the project<br/>
+                                <img src="images/tutorial/new_acceleo_project_uml.png" style="margin-top: 0px; width: 80%"/><br/>
+                                5. Press "Finish" to create the project<br/>
+                                6. Right click on the newly created Acceleo Project, press Configure and "Convert to Maven Project"<br/>
+                                <img src="images/tutorial/convert_to_maven_project.png" style="margin-top: 0px; width: 80%"/><br/>
+                                7. Open the "generate.mtl" file and add the line "[commen @main/]" to generate the main class file<br/>
+                                <img src="images/tutorial/acceleo_main_class.png" style="margin-top: 0px; width: 80%"/><br/>
+                                8. The error is not relevant if we have a Maven project! You can safely ignore it and reomve it by disabling the Acceleo Nature (Right click on the project - Configure - Toggle Acceleo Nature)<br/>
+                                9. Finally you should see the same project structure as in the following screenshot:<br/>
+                                <img src="images/tutorial/project_structure.png" style="margin-top: 0px; width: 50%"/><br/>
+                                10. Take the example generator from the demo project (<a href="https://github.com/fhv-msi/sentiment-analysis-generator" target="_blank">sentiment-analysis-generator</a>) to start creating your own generator<br/>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 id="line2_2">Papyrus UML project <a href="#top" class="toplink">#back to top</a><hr></h2>
+
+
                             </div>
                             <!-- end col -->
                         </div>
