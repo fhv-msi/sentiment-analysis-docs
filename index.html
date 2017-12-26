@@ -220,7 +220,10 @@
                         <div class="row">
                             <div class="col-md-12 left-align">
                                 <h2 id="line2_3">Maven configuration <a href="#top" class="toplink">#back to top</a><hr></h2>
-
+                                The maven build cycle looks as followed:<br/>
+                                <img src="diagrams/maven_build_cycle.png" style="margin-top: 0px; width: 60%"/><br/>
+                                At first we have to build the Acceleo generator, second we use the generated generator to load the UML model and to generated the source code of the application out of it. Last we build the generated application in order to start it.<br/>
+                                For a configuration example see the demoe project (<a href="https://github.com/fhv-msi/sentiment-analysis-generator" target="_blank">sentiment-analysis-generator</a>, <a href="https://github.com/fhv-msi/sentiment-analysis-uml" target="_blank">sentiment-analysis-uml</a>, <a href="https://github.com/fhv-msi/sentiment-analysis-backend" target="_blank">sentiment-analysis-backend</a>)
 
                             </div>
                             <!-- end col -->
