@@ -43,10 +43,10 @@
 |0
 |0
 |27
-|01m 13s 892ms
+|01m 18s 560ms
 |[green]#*passed*#
 12+^|*Totals*
-|10|0|10|27|0|0|0|0|0|27 2+|01m 13s 892ms
+|10|0|10|27|0|0|0|0|0|27 2+|01m 18s 560ms
 |===
 
 == *Features*
@@ -60,7 +60,7 @@ minmax::Automated-User-Acceptance-Tests-for-the-Sentiment-Analysis-Application[]
 ****
 Given ::
 =====
-Open https://fhv-frontend-staging.herokuapp.com/ icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 192ms)#
+Open https://fhv-frontend-staging.herokuapp.com/ icon:thumbs-up[role="green",title="Passed"] [small right]#(06s 768ms)#
 =====
 ****
 
@@ -69,15 +69,15 @@ Open https://fhv-frontend-staging.herokuapp.com/ icon:thumbs-up[role="green",tit
 ****
 Given ::
 =====
-Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 819ms)#
+Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 550ms)#
 =====
 When ::
 =====
-I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 911ms)#
+I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(04s 402ms)#
 =====
 Then ::
 =====
-I see the login page icon:thumbs-up[role="green",title="Passed"] [small right]#(175ms)#
+I see the login page icon:thumbs-up[role="green",title="Passed"] [small right]#(218ms)#
 =====
 ****
 
@@ -86,19 +86,19 @@ I see the login page icon:thumbs-up[role="green",title="Passed"] [small right]#(
 ****
 Given ::
 =====
-Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(04s 186ms)#
+Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 926ms)#
 =====
 When ::
 =====
-Analyze the text 'I love people' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 458ms)#
+Analyze the text 'I love people' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 305ms)#
 =====
 Then ::
 =====
-The smiley should be happy icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 055ms)#
+The smiley should be happy icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 513ms)#
 =====
 And ::
 =====
-I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 697ms)#
+I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(05s 076ms)#
 =====
 ****
 
@@ -107,19 +107,19 @@ I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 69
 ****
 Given ::
 =====
-Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(04s 930ms)#
+Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 560ms)#
 =====
 When ::
 =====
-Analyze the text 'I hate people' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 576ms)#
+Analyze the text 'I hate people' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 655ms)#
 =====
 Then ::
 =====
-The smiley should be unhappy icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 391ms)#
+The smiley should be unhappy icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 173ms)#
 =====
 And ::
 =====
-I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 988ms)#
+I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 997ms)#
 =====
 ****
 
@@ -128,19 +128,19 @@ I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 98
 ****
 Given ::
 =====
-Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(04s 506ms)#
+Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 286ms)#
 =====
 When ::
 =====
-Analyze the text '' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 831ms)#
+Analyze the text '' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 848ms)#
 =====
 Then ::
 =====
-The smiley should be neutral icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 220ms)#
+The smiley should be neutral icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 176ms)#
 =====
 And ::
 =====
-I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(05s 563ms)#
+I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(04s 009ms)#
 =====
 ****
 
@@ -149,31 +149,31 @@ I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(05s 56
 ****
 Given ::
 =====
-Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 537ms)#
+Login with user 'user@test.com' icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 336ms)#
 =====
 When ::
 =====
-Analyze the text 'I love people' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 884ms)#
+Analyze the text 'I love people' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 385ms)#
 =====
 And ::
 =====
-Analyze the text 'I hate people' icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 982ms)#
+Analyze the text 'I hate people' icon:thumbs-up[role="green",title="Passed"] [small right]#(02s 072ms)#
 =====
 And ::
 =====
-Navigate to history icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 743ms)#
+Navigate to history icon:thumbs-up[role="green",title="Passed"] [small right]#(01s 677ms)#
 =====
 Then ::
 =====
-The 1. row shows the history item with text 'I love people' and sentiment is 'happy' icon:thumbs-up[role="green",title="Passed"] [small right]#(800ms)#
+The 1. row shows the history item with text 'I love people' and sentiment is 'happy' icon:thumbs-up[role="green",title="Passed"] [small right]#(819ms)#
 =====
 And ::
 =====
-The 2. row shows the history item with text 'I hate people' and sentiment is 'unhappy' icon:thumbs-up[role="green",title="Passed"] [small right]#(740ms)#
+The 2. row shows the history item with text 'I hate people' and sentiment is 'unhappy' icon:thumbs-up[role="green",title="Passed"] [small right]#(649ms)#
 =====
 And ::
 =====
-I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(03s 899ms)#
+I press logout icon:thumbs-up[role="green",title="Passed"] [small right]#(04s 603ms)#
 =====
 ****
 
